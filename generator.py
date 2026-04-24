@@ -202,7 +202,7 @@ class EDDataGenerator:
     gen.summary_stats(records)
     """
 
-    # 34 columns — documented schema
+    # 36 columns — documented schema
     SCHEMA = [
         ("patient_id",            "Unique patient identifier (UUID-style)"),
         ("encounter_id",          "Unique encounter key per visit"),
